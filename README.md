@@ -1,1 +1,1 @@
-"# portfolio--bibhu" 
+I'm a Computer Science student passionate about building modern web applications and exploring AI. I enjoy creating clean, scalable, and user-friendly products while continuously improving my skills in full-stack development, problem solving, and software engineering.
