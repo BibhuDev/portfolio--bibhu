@@ -8,8 +8,10 @@ nav{
     position: fixed;
     top: 0;
     z-index: 20;
-    background-color: rgb(20, 28, 34);
-    overflow: hidden;
+    background-color: rgba(20, 28, 34, 0.4);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    /* overflow: hidden; */
 }
 
 nav ul a{

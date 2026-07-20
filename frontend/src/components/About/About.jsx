@@ -1,7 +1,7 @@
 import React from 'react'
 import "./About.css"
 import Card from '../Card/Card'
-import mern from "../../assets/MERN.png"
+import mern2 from "../../assets/image.png"
 import llm from "../../assets/LLM.png"
 import dsa from "../../assets/dsa.png"
 import { useGSAP } from '@gsap/react'
@@ -132,7 +132,7 @@ function About() {
           </div>
       </div>
       <div className="rightabout">
-          <Card title= "MERN DEVELOPER" image={mern}/>
+          <Card title= "MERN DEVELOPER" image={mern2}/>
           <Card title= "AI/LLM APPLICATIONS" image={llm}/>
           <Card title= "DSA AND SYSTEM DESIGN" image={dsa}/>
       </div>

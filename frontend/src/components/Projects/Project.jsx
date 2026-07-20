@@ -1,8 +1,10 @@
 import React from 'react'
 import Card from '../Card/Card'
 import './Project.css'
-// import ai from "../../assets/ai.png"
-// import ms from "../../assets/ms.png"
+import ai from "../../assets/ai.png"
+import mern from "../../assets/MERN.png"
+import cardam from "../../assets/cardam.png"
+import mern2 from "../../assets/image.png"
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
@@ -42,10 +44,10 @@ function Project() {
     <div id="projects">
         <h1 id='para'>FEATURED PROJECTS</h1>
         <div className="slider">
-            <Card title="MULTI AGENT AI ASSISTANCE"/>
-            <Card title="EVENT BOOKING MICROSERCIVES"/>
-            <Card title="AI CAR DAMAGE DETECTION"/>
-            <Card title="NEAR-EARTH OBJECT TRACKER"/>
+            <Card title="MULTI AGENT AI ASSISTANCE" image={ai}/>
+            <Card title="EVENT BOOKING MICROSERCIVES" image={mern2}/>
+            <Card title="AI CAR DAMAGE DETECTION" image={cardam}/>
+            <Card title="NEAR-EARTH OBJECT TRACKER" image={mern2}/>
         </div>
     </div>
   )
