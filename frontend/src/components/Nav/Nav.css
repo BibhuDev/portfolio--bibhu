@@ -4,7 +4,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px;
+    padding: 20px;
     position: fixed;
     top: 0;
 }
@@ -51,6 +51,7 @@ nav h1{
     width: 30px;
     height: 2px;
     background-color: aliceblue;
+    transition: all 0.5s;
 }
 
 .mobileMenu{
@@ -61,6 +62,30 @@ nav h1{
     right: 0;
     transform: translateX(100%);
     flex-direction: column;
+    transition: all 0.5s;
+    background-color: rgba(20, 28, 34, 0.514);
+    backdrop-filter: blur(7px);
+    gap: 40px;
+}
+
+.activemobile{
+    transform: translateX(0%);
+}
+
+.activeham .ham:nth-child(1){
+    transform: rotate(45deg);
+    position: relative;
+    top: 8px;
+}
+
+.activeham .ham:nth-child(2){
+    opacity: 0;
+}
+
+.activeham .ham:nth-child(3){
+    transform: rotate(-45deg);
+    position: relative;
+    top: -12px;
 }
 
 @media (max-width: 750px) {
